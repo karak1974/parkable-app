@@ -27,7 +27,3 @@ jobs:
         with:
           name: release-apk
           path: parkable_app/build/app/outputs/flutter-apk/parkable.apk
-      - uses: ncipollo/release-action@v1
-        with:
-          artifacts: "parkable_app/build/app/outputs/flutter-apk/parkable.apk"
-          bodyFile: "README.md"
